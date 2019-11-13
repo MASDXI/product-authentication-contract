@@ -1,7 +1,7 @@
 pragma solidity 0.5.11;
 pragma experimental ABIEncoderV2;
 contract Products {
-
+    
     struct Product {
         string brand;
         string serialnumber;
@@ -32,10 +32,11 @@ contract Products {
         products[hash] = _products;
     }
 
-    function checkProduct (string memory _serialnumber) public view returns (Product memory) {
+    function checkProduct (string memory _serialnumber) public view returns (string memory brand ,string memory describe ,string memory serialnumber) {
         bytes32 hash = keccak256(abi.encode(_serialnumber));
-        return products[hash];
-        /* if result is empty it's mean that Product is fake product*/ 
+        return (products[hash].brand,
+                products[hash].describe,
+                products[hash].serialnumber);
+        /* if result is empty it's mean that's Product is fake product*/ 
     }
 }
-© 2019 GitHub, Inc.
