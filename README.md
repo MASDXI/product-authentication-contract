@@ -43,7 +43,7 @@
         }
 
 ```
-**_เ่พิ่ม modifier onlyOwner() คือผู้สร้าง contract ซึ่งมีสิทธิ์ grantAuthorized หรือ revokeAuthorized ผู้ผลิตเพื่อใช้ function addProduct_**  
+**_เพิ่ม modifier onlyOwner() คือผู้สร้าง contract ซึ่งมีสิทธิ์ grantAuthorized หรือ revokeAuthorized ผู้ผลิตเพื่อใช้ function addProduct_**  
 
 ```
 //Example of addProduct with modifier
