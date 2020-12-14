@@ -80,5 +80,7 @@
 // หมายความว่า nk001 เป็นสินค้าแท้ไม่ใช่สินค้าของปลอม
 ```
 Sample Contract on Rinkeby Testnet
-https://rinkeby.etherscan.io/address/0x3781dbff37a96996c24f140e4b94f9d4d24cef64
+
+https://rinkeby.etherscan.io/address/0x3781dbff37a96996c24f140e4b94f9d4d24cef64 [Contract Source Code Verified]
+
 
